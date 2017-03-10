@@ -33,3 +33,6 @@ form {
   border-width: 1px;
   border-style: solid;
 }
+.content{
+  width: 100px;
+}
