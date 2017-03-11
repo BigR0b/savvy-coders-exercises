@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <div class="contact">
-  <form>
-    <label for="name" class="hidden">Name:</label><input name="name" type="text" placeholder ="Name" class="round">
-    <label for="email" class="hidden">Email:</label><input name="email" type="email" placeholder ="Email" class="round">
-    <label for="message" class="hidden">Message:</label> <textarea name="message" rows="8" cols="50" placeholder ="Message" class="round"></textarea>
-    <input type="submit">
+  <div id="contact">
+  <form id="contact_form" action="https://formspree.io/thebigrb118@gmail.com" method="POST">
+    <label for="name" class="hidden">Name:</label><input name="name" type="text" placeholder ="Name" class="round text-input">
+    <label for="email" class="hidden">Email:</label><input name="email" type="email" placeholder ="Email" class="round text-input">
+    <label for="message" class="hidden">Message:</label> <textarea name="message" rows="8" cols="50" placeholder ="Message" class="round text-input"></textarea>
+    <input type="submit" class="round">
   </form>
 </div>
 </body>

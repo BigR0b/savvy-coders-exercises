@@ -23,20 +23,23 @@ img{
 .hidden{
   display: none;
 }
-form {
-  width: 500px;
-  position: relative;
-}
+
 .round {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   border-width: 1px;
   border-style: solid;
+  padding: 5px 5px;
 }
-.contact{
-  position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+#contact{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 3px 5px;
+  background-color: red;
+}
+#contact_form .text-input{
+  width: 100%
+
 }
