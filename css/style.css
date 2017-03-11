@@ -25,6 +25,7 @@ img{
 }
 form {
   width: 500px;
+  position: relative;
 }
 .round {
   -webkit-border-radius: 4px;
@@ -33,6 +34,9 @@ form {
   border-width: 1px;
   border-style: solid;
 }
-.content{
-  width: 100px;
+.contact{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
