@@ -9,6 +9,13 @@
   <title>Hello</title>
 </head>
 <body>
+<div class="top_nav">
+  <ul class="top">
+    <li><a href="media/index.html">Media</a></li>
+    <li><a href="contact/index.html">Contact</a></li>
+    <li><a href="blog/index.html">Blog</a></li>
+  </ul>
+</div>
 <h1>Robin Rhodes</h1>
 <h2>Hello</h2>
 <p id="intro">My name is Robin Rhodes. I am currently learning in the
@@ -17,17 +24,38 @@ You can find my work on https://github.com/BigR0b</p>
 <p class = "hello">This is a second paragraph.</p>
 <p class = "hello">Hello World!</p>
 <img src="http://openquebec.org/img/akita_dog_breeders_calgary.jpg" alt="dog">
-<a href="mailto: thebigrb118@gmail.com">Contact me.</a>
-<p>
-  <ul>
-    <li><a href="media/index.html">Meida</a></li>
-    <li><a href="blog/index.html">Blog</a></li>
-    <li><a href="contact/index.html">Contact</a></li>
-  </ul>
-</p>
+<a href="mailto: thebigrb118@gmail.com">Email me.</a>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1502212339637!2d-77.03867098481643!3d38.89767995453291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bcdec17ee3%3A0xf920b148b3d45e45!2s1600+Pennsylvania+Ave+NW%2C+Washington%2C+DC+20500!5e0!3m2!1sen!2sus!4v1488504747140" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+  // var name = prompt('What is your name?');
+  // alert('Hello ' + name);
+  //
+  // var myCountry = prompt('what is your favorite country?');
+  //
+  // var freedomCheck = function(){
+  //   if( myCountry === 'USA' ) {
+  //      alert('Sweet Land of Liberty');
+  //    }
+  //   else{
+  //    alert('Sounds like you need some DEMOCRACY');
+  //  }
+  // };
+  //
+  // freedomCheck();
+  var myString = 'String';
+  var myNum = 23;
+  var myBoo = true;
 
+  var myArray = [myString, myNum, 'Another String', myBoo, false];
 
-
+  var myObject = {
+    myString: 'String',
+    myNum: 23,
+    myBoo: true,
+    fruit: ["apple", "bannana", "peach", "strawberry"]
+  };
+console.log(myObject);
+</script>
 </body>
 </html>

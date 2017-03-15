@@ -41,5 +41,17 @@ img{
 }
 #contact_form .text-input{
   width: 100%
-
+}
+.top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+li {
+    display: inline;
+    float: left;
+    padding: 5px;
+    color: #838383;
+    font-size: 14px;
 }
